@@ -1,0 +1,36 @@
+Ticker,Name,Sector,MaxSharpe_Weight%,MinVar_Weight%,EqualWeight%
+NVDA,NVIDIA,AI,0.0,5.77,2.86
+MSFT,Microsoft,AI,0.0,15.0,2.86
+GOOGL,Google,AI,15.0,13.91,2.86
+META,Meta,AI,0.0,4.6,2.86
+AMZN,Amazon,AI,0.0,3.83,2.86
+CRM,Salesforce,AI,0.0,11.54,2.86
+PLTR,Palantir,AI,0.0,0.0,2.86
+AI,C3.ai,AI,0.0,0.0,2.86
+SNOW,Snowflake,AI,0.0,0.0,2.86
+IBM,IBM,AI,0.0,9.48,2.86
+SMCI,Super Micro Computer,AI,0.0,0.0,2.86
+ORCL,Oracle,AI,0.0,0.0,2.86
+AMD,AMD,Chip,10.03,0.0,2.86
+INTC,Intel,Chip,15.0,0.0,2.86
+TSM,TSMC,Chip,2.56,0.0,2.86
+AVGO,Broadcom,Chip,0.0,0.0,2.86
+QCOM,Qualcomm,Chip,0.0,0.0,2.86
+TXN,Texas Instruments,Chip,5.51,10.88,2.86
+MU,Micron,Chip,15.0,0.0,2.86
+MRVL,Marvell,Chip,2.48,0.0,2.86
+ARM,Arm Holdings,Chip,0.0,0.0,2.86
+ASML,ASML,Chip,0.0,0.3,2.86
+TSLA,Tesla,NewEnergy,0.0,0.0,2.86
+ENPH,Enphase Energy,NewEnergy,0.0,0.0,2.86
+SEDG,SolarEdge,NewEnergy,0.0,0.0,2.86
+FSLR,First Solar,NewEnergy,0.0,0.0,2.86
+RUN,Sunrun,NewEnergy,0.0,0.0,2.86
+PLUG,Plug Power,NewEnergy,3.41,0.0,2.86
+BE,Bloom Energy,NewEnergy,12.88,0.0,2.86
+NEE,NextEra Energy,NewEnergy,15.0,15.0,2.86
+RIVN,Rivian,NewEnergy,0.0,0.0,2.86
+LCID,Lucid,NewEnergy,0.0,0.0,2.86
+NIO,NIO,NewEnergy,3.12,0.0,2.86
+LI,Li Auto,NewEnergy,0.0,9.69,2.86
+XPEV,XPeng,NewEnergy,0.0,0.0,2.86

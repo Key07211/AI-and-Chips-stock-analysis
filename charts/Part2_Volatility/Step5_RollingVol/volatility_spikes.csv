@@ -1,0 +1,7 @@
+Ticker,Name,Sector,Spike_Start,Spike_End,Duration_Days,Peak_Date,Peak_Vol%,Median_Vol%,Period_Return%
+ORCL,Oracle,AI,2025-09-10,2025-10-21,42,2025-10-21,119.0,52.6,-16.05
+QCOM,Qualcomm,Chip,2026-05-05,2026-05-11,7,2026-05-11,70.4,30.6,27.33
+TXN,Texas Instruments,Chip,2026-04-23,2026-04-30,8,2026-04-28,63.4,31.6,-0.41
+TXN,Texas Instruments,Chip,2026-05-07,2026-05-07,1,2026-05-07,63.3,31.6,0.0
+IBM,IBM,AI,2026-02-23,2026-03-12,18,2026-02-26,59.0,28.6,10.89
+MSFT,Microsoft,AI,2026-02-09,2026-03-12,32,2026-03-03,42.4,19.4,-2.62

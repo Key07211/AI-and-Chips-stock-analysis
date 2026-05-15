@@ -1,0 +1,42 @@
+Ticker,Name,Sector,Start_Price,End_Price,Yearly_Return%
+BE,Bloom Energy,NewEnergy,18.91,283.92,1401.43
+MU,Micron,Chip,92.07,795.33,763.83
+INTC,Intel,Chip,22.18,129.44,483.59
+AMD,AMD,Chip,108.12,458.79,324.33
+PLUG,Plug Power,NewEnergy,0.9,3.52,291.11
+MRVL,Marvell,Chip,64.33,170.84,165.57
+^SOX,PHLX_Semiconductor,Index,4780.93,12081.04,152.69
+GOOGL,Google,AI,157.91,388.64,146.11
+TSM,TSMC,Chip,184.69,404.54,119.04
+SEDG,SolarEdge,NewEnergy,19.16,41.79,118.11
+ASML,ASML,Chip,744.37,1565.81,110.35
+AVGO,Broadcom,Chip,219.8,428.43,94.92
+NVDA,NVIDIA,AI,122.97,219.44,78.45
+ARM,Arm Holdings,Chip,124.81,212.65,70.38
+TXN,Texas Instruments,Chip,182.17,297.76,63.45
+QCOM,Qualcomm,Chip,148.64,237.53,59.8
+FSLR,First Solar,NewEnergy,156.21,233.27,49.33
+NIO,NIO,NewEnergy,4.2,6.07,44.52
+^IXIC,NASDAQ,Index,18708.34,26274.12,40.44
+NEE,NextEra Energy,NewEnergy,67.68,94.84,40.13
+TSLA,Tesla,NewEnergy,318.38,445.0,39.77
+^RUT,Russell2000,Index,2092.2,2870.64,37.21
+RUN,Sunrun,NewEnergy,10.96,14.47,32.03
+AMZN,Amazon,AI,208.64,268.99,28.93
+^GSPC,SP500,Index,5844.19,7412.84,26.84
+ORCL,Oracle,AI,155.66,193.84,24.53
+^DJI,DowJones,Index,42410.1,49704.47,17.2
+PLTR,Palantir,AI,118.46,136.89,15.56
+SMCI,Super Micro Computer,AI,33.52,33.52,0.0
+^VIX,VIX,Index,18.39,18.38,-0.05
+RIVN,Rivian,NewEnergy,14.64,14.08,-3.83
+META,Meta,AI,637.44,598.86,-6.05
+MSFT,Microsoft,AI,445.85,412.66,-7.44
+IBM,IBM,AI,247.36,223.55,-9.63
+SNOW,Snowflake,AI,180.54,151.5,-16.09
+ENPH,Enphase Energy,NewEnergy,47.94,37.65,-21.46
+XPEV,XPeng,NewEnergy,21.12,16.15,-23.53
+LI,Li Auto,NewEnergy,28.38,18.87,-33.51
+CRM,Salesforce,AI,286.68,177.49,-38.09
+AI,C3.ai,AI,24.2,9.48,-60.83
+LCID,Lucid,NewEnergy,26.2,6.03,-76.98

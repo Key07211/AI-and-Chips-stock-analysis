@@ -1,0 +1,493 @@
+Ticker,Name,Sector,Month,Return%
+NVDA,NVIDIA,AI,2025-06,16.92
+NVDA,NVIDIA,AI,2025-07,12.59
+NVDA,NVIDIA,AI,2025-08,-2.07
+NVDA,NVIDIA,AI,2025-09,7.13
+NVDA,NVIDIA,AI,2025-10,8.53
+NVDA,NVIDIA,AI,2025-11,-12.59
+NVDA,NVIDIA,AI,2025-12,5.37
+NVDA,NVIDIA,AI,2026-01,2.48
+NVDA,NVIDIA,AI,2026-02,-7.29
+NVDA,NVIDIA,AI,2026-03,-1.57
+NVDA,NVIDIA,AI,2026-04,14.43
+NVDA,NVIDIA,AI,2026-05,9.96
+MSFT,Microsoft,AI,2025-06,8.05
+MSFT,Microsoft,AI,2025-07,7.26
+MSFT,Microsoft,AI,2025-08,-4.87
+MSFT,Microsoft,AI,2025-09,2.22
+MSFT,Microsoft,AI,2025-10,-0.03
+MSFT,Microsoft,AI,2025-11,-4.81
+MSFT,Microsoft,AI,2025-12,-1.71
+MSFT,Microsoft,AI,2026-01,-11.03
+MSFT,Microsoft,AI,2026-02,-8.52
+MSFT,Microsoft,AI,2026-03,-5.75
+MSFT,Microsoft,AI,2026-04,10.16
+MSFT,Microsoft,AI,2026-05,1.2
+GOOGL,Google,AI,2025-06,2.73
+GOOGL,Google,AI,2025-07,8.89
+GOOGL,Google,AI,2025-08,10.95
+GOOGL,Google,AI,2025-09,14.28
+GOOGL,Google,AI,2025-10,15.67
+GOOGL,Google,AI,2025-11,13.87
+GOOGL,Google,AI,2025-12,-2.18
+GOOGL,Google,AI,2026-01,7.99
+GOOGL,Google,AI,2026-02,-7.76
+GOOGL,Google,AI,2026-03,-7.7
+GOOGL,Google,AI,2026-04,33.82
+GOOGL,Google,AI,2026-05,1.0
+META,Meta,AI,2025-06,14.08
+META,Meta,AI,2025-07,4.79
+META,Meta,AI,2025-08,-4.49
+META,Meta,AI,2025-09,-0.52
+META,Meta,AI,2025-10,-11.71
+META,Meta,AI,2025-11,-0.06
+META,Meta,AI,2025-12,1.96
+META,Meta,AI,2026-01,8.55
+META,Meta,AI,2026-02,-9.53
+META,Meta,AI,2026-03,-11.66
+META,Meta,AI,2026-04,6.95
+META,Meta,AI,2026-05,-2.13
+AMZN,Amazon,AI,2025-06,7.01
+AMZN,Amazon,AI,2025-07,6.71
+AMZN,Amazon,AI,2025-08,-2.18
+AMZN,Amazon,AI,2025-09,-4.12
+AMZN,Amazon,AI,2025-10,11.23
+AMZN,Amazon,AI,2025-11,-4.5
+AMZN,Amazon,AI,2025-12,-1.03
+AMZN,Amazon,AI,2026-01,3.67
+AMZN,Amazon,AI,2026-02,-12.24
+AMZN,Amazon,AI,2026-03,-0.82
+AMZN,Amazon,AI,2026-04,27.27
+AMZN,Amazon,AI,2026-05,1.48
+CRM,Salesforce,AI,2025-06,2.92
+CRM,Salesforce,AI,2025-07,-5.27
+CRM,Salesforce,AI,2025-08,-0.8
+CRM,Salesforce,AI,2025-09,-7.35
+CRM,Salesforce,AI,2025-10,9.88
+CRM,Salesforce,AI,2025-11,-11.47
+CRM,Salesforce,AI,2025-12,15.1
+CRM,Salesforce,AI,2026-01,-19.86
+CRM,Salesforce,AI,2026-02,-8.25
+CRM,Salesforce,AI,2026-03,-4.17
+CRM,Salesforce,AI,2026-04,-5.19
+CRM,Salesforce,AI,2026-05,0.54
+PLTR,Palantir,AI,2025-06,3.45
+PLTR,Palantir,AI,2025-07,16.16
+PLTR,Palantir,AI,2025-08,-1.04
+PLTR,Palantir,AI,2025-09,16.41
+PLTR,Palantir,AI,2025-10,9.89
+PLTR,Palantir,AI,2025-11,-15.97
+PLTR,Palantir,AI,2025-12,5.52
+PLTR,Palantir,AI,2026-01,-17.53
+PLTR,Palantir,AI,2026-02,-6.41
+PLTR,Palantir,AI,2026-03,6.63
+PLTR,Palantir,AI,2026-04,-4.9
+PLTR,Palantir,AI,2026-05,-1.6
+AI,C3.ai,AI,2025-06,-7.6
+AI,C3.ai,AI,2025-07,-4.11
+AI,C3.ai,AI,2025-08,-28.23
+AI,C3.ai,AI,2025-09,2.54
+AI,C3.ai,AI,2025-10,1.38
+AI,C3.ai,AI,2025-11,-17.8
+AI,C3.ai,AI,2025-12,-6.71
+AI,C3.ai,AI,2026-01,-18.32
+AI,C3.ai,AI,2026-02,-27.79
+AI,C3.ai,AI,2026-03,5.91
+AI,C3.ai,AI,2026-04,4.87
+AI,C3.ai,AI,2026-05,7.36
+SNOW,Snowflake,AI,2025-06,8.8
+SNOW,Snowflake,AI,2025-07,-0.12
+SNOW,Snowflake,AI,2025-08,6.78
+SNOW,Snowflake,AI,2025-09,-5.49
+SNOW,Snowflake,AI,2025-10,21.87
+SNOW,Snowflake,AI,2025-11,-8.6
+SNOW,Snowflake,AI,2025-12,-12.69
+SNOW,Snowflake,AI,2026-01,-12.15
+SNOW,Snowflake,AI,2026-02,-12.61
+SNOW,Snowflake,AI,2026-03,-10.44
+SNOW,Snowflake,AI,2026-04,-9.51
+SNOW,Snowflake,AI,2026-05,11.01
+IBM,IBM,AI,2025-06,13.79
+IBM,IBM,AI,2025-07,-14.12
+IBM,IBM,AI,2025-08,-3.17
+IBM,IBM,AI,2025-09,15.88
+IBM,IBM,AI,2025-10,8.95
+IBM,IBM,AI,2025-11,0.93
+IBM,IBM,AI,2025-12,-4.01
+IBM,IBM,AI,2026-01,3.54
+IBM,IBM,AI,2026-02,-21.23
+IBM,IBM,AI,2026-03,0.91
+IBM,IBM,AI,2026-04,-4.71
+IBM,IBM,AI,2026-05,-2.5
+SMCI,Super Micro Computer,AI,2025-06,22.46
+SMCI,Super Micro Computer,AI,2025-07,20.32
+SMCI,Super Micro Computer,AI,2025-08,-29.56
+SMCI,Super Micro Computer,AI,2025-09,15.41
+SMCI,Super Micro Computer,AI,2025-10,8.39
+SMCI,Super Micro Computer,AI,2025-11,-34.85
+SMCI,Super Micro Computer,AI,2025-12,-13.53
+SMCI,Super Micro Computer,AI,2026-01,-0.55
+SMCI,Super Micro Computer,AI,2026-02,11.27
+SMCI,Super Micro Computer,AI,2026-03,-29.7
+SMCI,Super Micro Computer,AI,2026-04,20.33
+SMCI,Super Micro Computer,AI,2026-05,22.34
+ORCL,Oracle,AI,2025-06,32.08
+ORCL,Oracle,AI,2025-07,16.32
+ORCL,Oracle,AI,2025-08,-10.89
+ORCL,Oracle,AI,2025-09,24.37
+ORCL,Oracle,AI,2025-10,-6.46
+ORCL,Oracle,AI,2025-11,-23.1
+ORCL,Oracle,AI,2025-12,-3.49
+ORCL,Oracle,AI,2026-01,-15.34
+ORCL,Oracle,AI,2026-02,-11.66
+ORCL,Oracle,AI,2026-03,1.18
+ORCL,Oracle,AI,2026-04,10.09
+ORCL,Oracle,AI,2026-05,20.11
+AMD,AMD,Chip,2025-06,28.15
+AMD,AMD,Chip,2025-07,24.25
+AMD,AMD,Chip,2025-08,-7.76
+AMD,AMD,Chip,2025-09,-0.52
+AMD,AMD,Chip,2025-10,58.3
+AMD,AMD,Chip,2025-11,-15.07
+AMD,AMD,Chip,2025-12,-1.55
+AMD,AMD,Chip,2026-01,10.54
+AMD,AMD,Chip,2026-02,-15.43
+AMD,AMD,Chip,2026-03,1.61
+AMD,AMD,Chip,2026-04,74.26
+AMD,AMD,Chip,2026-05,29.42
+INTC,Intel,Chip,2025-06,14.58
+INTC,Intel,Chip,2025-07,-11.61
+INTC,Intel,Chip,2025-08,22.98
+INTC,Intel,Chip,2025-09,37.78
+INTC,Intel,Chip,2025-10,19.2
+INTC,Intel,Chip,2025-11,1.43
+INTC,Intel,Chip,2025-12,-9.02
+INTC,Intel,Chip,2026-01,25.93
+INTC,Intel,Chip,2026-02,-1.85
+INTC,Intel,Chip,2026-03,-3.24
+INTC,Intel,Chip,2026-04,114.09
+INTC,Intel,Chip,2026-05,37.0
+TSM,TSMC,Chip,2025-06,17.59
+TSM,TSMC,Chip,2025-07,6.68
+TSM,TSMC,Chip,2025-08,-4.45
+TSM,TSMC,Chip,2025-09,21.36
+TSM,TSMC,Chip,2025-10,7.57
+TSM,TSMC,Chip,2025-11,-2.97
+TSM,TSMC,Chip,2025-12,4.53
+TSM,TSMC,Chip,2026-01,8.77
+TSM,TSMC,Chip,2026-02,13.32
+TSM,TSMC,Chip,2026-03,-9.53
+TSM,TSMC,Chip,2026-04,17.19
+TSM,TSMC,Chip,2026-05,2.14
+AVGO,Broadcom,Chip,2025-06,14.14
+AVGO,Broadcom,Chip,2025-07,6.55
+AVGO,Broadcom,Chip,2025-08,1.25
+AVGO,Broadcom,Chip,2025-09,11.13
+AVGO,Broadcom,Chip,2025-10,12.04
+AVGO,Broadcom,Chip,2025-11,9.02
+AVGO,Broadcom,Chip,2025-12,-13.95
+AVGO,Broadcom,Chip,2026-01,-4.28
+AVGO,Broadcom,Chip,2026-02,-3.55
+AVGO,Broadcom,Chip,2026-03,-2.94
+AVGO,Broadcom,Chip,2026-04,34.87
+AVGO,Broadcom,Chip,2026-05,2.64
+QCOM,Qualcomm,Chip,2025-06,10.34
+QCOM,Qualcomm,Chip,2025-07,-7.85
+QCOM,Qualcomm,Chip,2025-08,9.52
+QCOM,Qualcomm,Chip,2025-09,4.1
+QCOM,Qualcomm,Chip,2025-10,8.74
+QCOM,Qualcomm,Chip,2025-11,-7.08
+QCOM,Qualcomm,Chip,2025-12,2.28
+QCOM,Qualcomm,Chip,2026-01,-11.38
+QCOM,Qualcomm,Chip,2026-02,-6.09
+QCOM,Qualcomm,Chip,2026-03,-8.96
+QCOM,Qualcomm,Chip,2026-04,39.45
+QCOM,Qualcomm,Chip,2026-05,32.27
+TXN,Texas Instruments,Chip,2025-06,13.55
+TXN,Texas Instruments,Chip,2025-07,-12.17
+TXN,Texas Instruments,Chip,2025-08,11.83
+TXN,Texas Instruments,Chip,2025-09,-9.26
+TXN,Texas Instruments,Chip,2025-10,-11.34
+TXN,Texas Instruments,Chip,2025-11,4.22
+TXN,Texas Instruments,Chip,2025-12,3.1
+TXN,Texas Instruments,Chip,2026-01,25.06
+TXN,Texas Instruments,Chip,2026-02,-1.59
+TXN,Texas Instruments,Chip,2026-03,-8.47
+TXN,Texas Instruments,Chip,2026-04,44.78
+TXN,Texas Instruments,Chip,2026-05,6.47
+MU,Micron,Chip,2025-06,30.49
+MU,Micron,Chip,2025-07,-11.37
+MU,Micron,Chip,2025-08,9.05
+MU,Micron,Chip,2025-09,40.59
+MU,Micron,Chip,2025-10,33.82
+MU,Micron,Chip,2025-11,5.68
+MU,Micron,Chip,2025-12,20.74
+MU,Micron,Chip,2026-01,45.36
+MU,Micron,Chip,2026-02,-0.61
+MU,Micron,Chip,2026-03,-18.04
+MU,Micron,Chip,2026-04,53.08
+MU,Micron,Chip,2026-05,53.79
+MRVL,Marvell,Chip,2025-06,28.59
+MRVL,Marvell,Chip,2025-07,3.93
+MRVL,Marvell,Chip,2025-08,-21.78
+MRVL,Marvell,Chip,2025-09,33.72
+MRVL,Marvell,Chip,2025-10,11.58
+MRVL,Marvell,Chip,2025-11,-4.64
+MRVL,Marvell,Chip,2025-12,-4.94
+MRVL,Marvell,Chip,2026-01,-7.07
+MRVL,Marvell,Chip,2026-02,3.51
+MRVL,Marvell,Chip,2026-03,21.25
+MRVL,Marvell,Chip,2026-04,66.82
+MRVL,Marvell,Chip,2026-05,3.45
+ARM,Arm Holdings,Chip,2025-06,29.87
+ARM,Arm Holdings,Chip,2025-07,-12.59
+ARM,Arm Holdings,Chip,2025-08,-2.17
+ARM,Arm Holdings,Chip,2025-09,2.3
+ARM,Arm Holdings,Chip,2025-10,20.02
+ARM,Arm Holdings,Chip,2025-11,-20.17
+ARM,Arm Holdings,Chip,2025-12,-19.36
+ARM,Arm Holdings,Chip,2026-01,-3.61
+ARM,Arm Holdings,Chip,2026-02,20.97
+ARM,Arm Holdings,Chip,2026-03,18.7
+ARM,Arm Holdings,Chip,2026-04,39.03
+ARM,Arm Holdings,Chip,2026-05,1.11
+ASML,ASML,Chip,2025-06,8.77
+ASML,ASML,Chip,2025-07,-13.09
+ASML,ASML,Chip,2025-08,6.9
+ASML,ASML,Chip,2025-09,30.36
+ASML,ASML,Chip,2025-10,9.61
+ASML,ASML,Chip,2025-11,0.07
+ASML,ASML,Chip,2025-12,0.93
+ASML,ASML,Chip,2026-01,33.01
+ASML,ASML,Chip,2026-02,2.07
+ASML,ASML,Chip,2026-03,-8.94
+ASML,ASML,Chip,2026-04,9.18
+ASML,ASML,Chip,2026-05,8.81
+TSLA,Tesla,NewEnergy,2025-06,-8.31
+TSLA,Tesla,NewEnergy,2025-07,-2.96
+TSLA,Tesla,NewEnergy,2025-08,8.3
+TSLA,Tesla,NewEnergy,2025-09,33.2
+TSLA,Tesla,NewEnergy,2025-10,2.66
+TSLA,Tesla,NewEnergy,2025-11,-5.78
+TSLA,Tesla,NewEnergy,2025-12,4.54
+TSLA,Tesla,NewEnergy,2026-01,-4.29
+TSLA,Tesla,NewEnergy,2026-02,-6.48
+TSLA,Tesla,NewEnergy,2026-03,-7.64
+TSLA,Tesla,NewEnergy,2026-04,2.66
+TSLA,Tesla,NewEnergy,2026-05,16.61
+ENPH,Enphase Energy,NewEnergy,2025-06,-4.2
+ENPH,Enphase Energy,NewEnergy,2025-07,-18.39
+ENPH,Enphase Energy,NewEnergy,2025-08,16.5
+ENPH,Enphase Energy,NewEnergy,2025-09,-6.13
+ENPH,Enphase Energy,NewEnergy,2025-10,-13.79
+ENPH,Enphase Energy,NewEnergy,2025-11,-5.44
+ENPH,Enphase Energy,NewEnergy,2025-12,11.09
+ENPH,Enphase Energy,NewEnergy,2026-01,15.38
+ENPH,Enphase Energy,NewEnergy,2026-02,14.31
+ENPH,Enphase Energy,NewEnergy,2026-03,-10.55
+ENPH,Enphase Energy,NewEnergy,2026-04,-12.83
+ENPH,Enphase Energy,NewEnergy,2026-05,14.23
+SEDG,SolarEdge,NewEnergy,2025-06,14.22
+SEDG,SolarEdge,NewEnergy,2025-07,25.78
+SEDG,SolarEdge,NewEnergy,2025-08,31.8
+SEDG,SolarEdge,NewEnergy,2025-09,9.4
+SEDG,SolarEdge,NewEnergy,2025-10,-5.16
+SEDG,SolarEdge,NewEnergy,2025-11,4.1
+SEDG,SolarEdge,NewEnergy,2025-12,-21.02
+SEDG,SolarEdge,NewEnergy,2026-01,7.28
+SEDG,SolarEdge,NewEnergy,2026-02,14.38
+SEDG,SolarEdge,NewEnergy,2026-03,44.21
+SEDG,SolarEdge,NewEnergy,2026-04,-16.04
+SEDG,SolarEdge,NewEnergy,2026-05,-2.5
+FSLR,First Solar,NewEnergy,2025-06,4.72
+FSLR,First Solar,NewEnergy,2025-07,5.55
+FSLR,First Solar,NewEnergy,2025-08,11.71
+FSLR,First Solar,NewEnergy,2025-09,12.98
+FSLR,First Solar,NewEnergy,2025-10,21.04
+FSLR,First Solar,NewEnergy,2025-11,2.24
+FSLR,First Solar,NewEnergy,2025-12,-4.28
+FSLR,First Solar,NewEnergy,2026-01,-13.67
+FSLR,First Solar,NewEnergy,2026-02,-12.56
+FSLR,First Solar,NewEnergy,2026-03,0.03
+FSLR,First Solar,NewEnergy,2026-04,2.35
+FSLR,First Solar,NewEnergy,2026-05,15.54
+RUN,Sunrun,NewEnergy,2025-06,9.21
+RUN,Sunrun,NewEnergy,2025-07,25.43
+RUN,Sunrun,NewEnergy,2025-08,55.65
+RUN,Sunrun,NewEnergy,2025-09,8.27
+RUN,Sunrun,NewEnergy,2025-10,20.07
+RUN,Sunrun,NewEnergy,2025-11,-2.46
+RUN,Sunrun,NewEnergy,2025-12,-9.14
+RUN,Sunrun,NewEnergy,2026-01,3.26
+RUN,Sunrun,NewEnergy,2026-02,-30.26
+RUN,Sunrun,NewEnergy,2026-03,2.34
+RUN,Sunrun,NewEnergy,2026-04,-6.12
+RUN,Sunrun,NewEnergy,2026-05,13.67
+PLUG,Plug Power,NewEnergy,2025-06,69.32
+PLUG,Plug Power,NewEnergy,2025-07,0.67
+PLUG,Plug Power,NewEnergy,2025-08,4.67
+PLUG,Plug Power,NewEnergy,2025-09,48.41
+PLUG,Plug Power,NewEnergy,2025-10,15.45
+PLUG,Plug Power,NewEnergy,2025-11,-25.28
+PLUG,Plug Power,NewEnergy,2025-12,-1.99
+PLUG,Plug Power,NewEnergy,2026-01,7.61
+PLUG,Plug Power,NewEnergy,2026-02,-15.57
+PLUG,Plug Power,NewEnergy,2026-03,26.26
+PLUG,Plug Power,NewEnergy,2026-04,38.5
+PLUG,Plug Power,NewEnergy,2026-05,12.46
+BE,Bloom Energy,NewEnergy,2025-06,29.51
+BE,Bloom Energy,NewEnergy,2025-07,56.31
+BE,Bloom Energy,NewEnergy,2025-08,41.59
+BE,Bloom Energy,NewEnergy,2025-09,59.75
+BE,Bloom Energy,NewEnergy,2025-10,56.27
+BE,Bloom Energy,NewEnergy,2025-11,-17.34
+BE,Bloom Energy,NewEnergy,2025-12,-20.46
+BE,Bloom Energy,NewEnergy,2026-01,74.21
+BE,Bloom Energy,NewEnergy,2026-02,2.84
+BE,Bloom Energy,NewEnergy,2026-03,-12.96
+BE,Bloom Energy,NewEnergy,2026-04,109.14
+BE,Bloom Energy,NewEnergy,2026-05,0.2
+NEE,NextEra Energy,NewEnergy,2025-06,-0.93
+NEE,NextEra Energy,NewEnergy,2025-07,2.37
+NEE,NextEra Energy,NewEnergy,2025-08,2.17
+NEE,NextEra Energy,NewEnergy,2025-09,4.77
+NEE,NextEra Energy,NewEnergy,2025-10,7.83
+NEE,NextEra Energy,NewEnergy,2025-11,6.74
+NEE,NextEra Energy,NewEnergy,2025-12,-6.97
+NEE,NextEra Energy,NewEnergy,2026-01,9.48
+NEE,NextEra Energy,NewEnergy,2026-02,7.41
+NEE,NextEra Energy,NewEnergy,2026-03,-0.95
+NEE,NextEra Energy,NewEnergy,2026-04,5.38
+NEE,NextEra Energy,NewEnergy,2026-05,-3.11
+RIVN,Rivian,NewEnergy,2025-06,-5.44
+RIVN,Rivian,NewEnergy,2025-07,-6.33
+RIVN,Rivian,NewEnergy,2025-08,5.44
+RIVN,Rivian,NewEnergy,2025-09,8.18
+RIVN,Rivian,NewEnergy,2025-10,-7.56
+RIVN,Rivian,NewEnergy,2025-11,24.24
+RIVN,Rivian,NewEnergy,2025-12,16.9
+RIVN,Rivian,NewEnergy,2026-01,-25.16
+RIVN,Rivian,NewEnergy,2026-02,3.93
+RIVN,Rivian,NewEnergy,2026-03,-1.83
+RIVN,Rivian,NewEnergy,2026-04,8.97
+RIVN,Rivian,NewEnergy,2026-05,-14.15
+LCID,Lucid,NewEnergy,2025-06,-5.38
+LCID,Lucid,NewEnergy,2025-07,16.59
+LCID,Lucid,NewEnergy,2025-08,-19.51
+LCID,Lucid,NewEnergy,2025-09,20.15
+LCID,Lucid,NewEnergy,2025-10,-25.39
+LCID,Lucid,NewEnergy,2025-11,-23.21
+LCID,Lucid,NewEnergy,2025-12,-22.45
+LCID,Lucid,NewEnergy,2026-01,4.73
+LCID,Lucid,NewEnergy,2026-02,-9.67
+LCID,Lucid,NewEnergy,2026-03,-4.7
+LCID,Lucid,NewEnergy,2026-04,-33.16
+LCID,Lucid,NewEnergy,2026-05,-5.34
+NIO,NIO,NewEnergy,2025-06,-3.11
+NIO,NIO,NewEnergy,2025-07,41.98
+NIO,NIO,NewEnergy,2025-08,31.01
+NIO,NIO,NewEnergy,2025-09,19.44
+NIO,NIO,NewEnergy,2025-10,-4.86
+NIO,NIO,NewEnergy,2025-11,-24.14
+NIO,NIO,NewEnergy,2025-12,-7.27
+NIO,NIO,NewEnergy,2026-01,-7.84
+NIO,NIO,NewEnergy,2026-02,3.62
+NIO,NIO,NewEnergy,2026-03,23.82
+NIO,NIO,NewEnergy,2026-04,5.97
+NIO,NIO,NewEnergy,2026-05,-5.01
+LI,Li Auto,NewEnergy,2025-06,-4.34
+LI,Li Auto,NewEnergy,2025-07,-3.73
+LI,Li Auto,NewEnergy,2025-08,-10.54
+LI,Li Auto,NewEnergy,2025-09,8.52
+LI,Li Auto,NewEnergy,2025-10,-17.72
+LI,Li Auto,NewEnergy,2025-11,-11.8
+LI,Li Auto,NewEnergy,2025-12,-7.94
+LI,Li Auto,NewEnergy,2026-01,-1.77
+LI,Li Auto,NewEnergy,2026-02,5.77
+LI,Li Auto,NewEnergy,2026-03,1.36
+LI,Li Auto,NewEnergy,2026-04,0.0
+LI,Li Auto,NewEnergy,2026-05,5.83
+XPEV,XPeng,NewEnergy,2025-06,-7.41
+XPEV,XPeng,NewEnergy,2025-07,1.85
+XPEV,XPeng,NewEnergy,2025-08,15.43
+XPEV,XPeng,NewEnergy,2025-09,11.42
+XPEV,XPeng,NewEnergy,2025-10,0.3
+XPEV,XPeng,NewEnergy,2025-11,-7.07
+XPEV,XPeng,NewEnergy,2025-12,-7.1
+XPEV,XPeng,NewEnergy,2026-01,-11.34
+XPEV,XPeng,NewEnergy,2026-02,-2.34
+XPEV,XPeng,NewEnergy,2026-03,-2.56
+XPEV,XPeng,NewEnergy,2026-04,-4.73
+XPEV,XPeng,NewEnergy,2026-05,-0.92
+^GSPC,SP500,Index,2025-06,4.96
+^GSPC,SP500,Index,2025-07,2.17
+^GSPC,SP500,Index,2025-08,1.91
+^GSPC,SP500,Index,2025-09,3.53
+^GSPC,SP500,Index,2025-10,2.27
+^GSPC,SP500,Index,2025-11,0.13
+^GSPC,SP500,Index,2025-12,-0.05
+^GSPC,SP500,Index,2026-01,1.37
+^GSPC,SP500,Index,2026-02,-0.87
+^GSPC,SP500,Index,2026-03,-5.09
+^GSPC,SP500,Index,2026-04,10.42
+^GSPC,SP500,Index,2026-05,2.83
+^IXIC,NASDAQ,Index,2025-06,6.57
+^IXIC,NASDAQ,Index,2025-07,3.7
+^IXIC,NASDAQ,Index,2025-08,1.58
+^IXIC,NASDAQ,Index,2025-09,5.61
+^IXIC,NASDAQ,Index,2025-10,4.7
+^IXIC,NASDAQ,Index,2025-11,-1.51
+^IXIC,NASDAQ,Index,2025-12,-0.53
+^IXIC,NASDAQ,Index,2026-01,0.95
+^IXIC,NASDAQ,Index,2026-02,-3.38
+^IXIC,NASDAQ,Index,2026-03,-4.75
+^IXIC,NASDAQ,Index,2026-04,15.29
+^IXIC,NASDAQ,Index,2026-05,5.55
+^DJI,DowJones,Index,2025-06,4.32
+^DJI,DowJones,Index,2025-07,0.08
+^DJI,DowJones,Index,2025-08,3.2
+^DJI,DowJones,Index,2025-09,1.87
+^DJI,DowJones,Index,2025-10,2.51
+^DJI,DowJones,Index,2025-11,0.32
+^DJI,DowJones,Index,2025-12,0.73
+^DJI,DowJones,Index,2026-01,1.73
+^DJI,DowJones,Index,2026-02,0.17
+^DJI,DowJones,Index,2026-03,-5.38
+^DJI,DowJones,Index,2026-04,7.14
+^DJI,DowJones,Index,2026-05,0.11
+^RUT,Russell2000,Index,2025-06,5.26
+^RUT,Russell2000,Index,2025-07,1.68
+^RUT,Russell2000,Index,2025-08,7.0
+^RUT,Russell2000,Index,2025-09,2.96
+^RUT,Russell2000,Index,2025-10,1.76
+^RUT,Russell2000,Index,2025-11,0.85
+^RUT,Russell2000,Index,2025-12,-0.74
+^RUT,Russell2000,Index,2026-01,5.31
+^RUT,Russell2000,Index,2026-02,0.71
+^RUT,Russell2000,Index,2026-03,-5.17
+^RUT,Russell2000,Index,2026-04,12.16
+^RUT,Russell2000,Index,2026-05,2.53
+^VIX,VIX,Index,2025-06,-9.91
+^VIX,VIX,Index,2025-07,-0.06
+^VIX,VIX,Index,2025-08,-8.13
+^VIX,VIX,Index,2025-09,5.99
+^VIX,VIX,Index,2025-10,7.13
+^VIX,VIX,Index,2025-11,-6.25
+^VIX,VIX,Index,2025-12,-8.56
+^VIX,VIX,Index,2026-01,16.66
+^VIX,VIX,Index,2026-02,13.88
+^VIX,VIX,Index,2026-03,27.14
+^VIX,VIX,Index,2026-04,-33.11
+^VIX,VIX,Index,2026-05,8.82
+^SOX,PHLX_Semiconductor,Index,2025-06,16.57
+^SOX,PHLX_Semiconductor,Index,2025-07,1.11
+^SOX,PHLX_Semiconductor,Index,2025-08,1.09
+^SOX,PHLX_Semiconductor,Index,2025-09,12.36
+^SOX,PHLX_Semiconductor,Index,2025-10,13.48
+^SOX,PHLX_Semiconductor,Index,2025-11,-2.82
+^SOX,PHLX_Semiconductor,Index,2025-12,0.83
+^SOX,PHLX_Semiconductor,Index,2026-01,12.92
+^SOX,PHLX_Semiconductor,Index,2026-02,1.25
+^SOX,PHLX_Semiconductor,Index,2026-03,-6.3
+^SOX,PHLX_Semiconductor,Index,2026-04,38.42
+^SOX,PHLX_Semiconductor,Index,2026-05,15.02
