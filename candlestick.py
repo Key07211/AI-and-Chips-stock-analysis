@@ -5,8 +5,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 DATA_DIR = Path(__file__).parent / "data"
-CHART_DIR = Path(__file__).parent / "charts"
-CHART_DIR.mkdir(exist_ok=True)
+CHART_DIR = Path(__file__).parent / "charts" / "Part1_EDA" / "Step2_LineCharts"
+CHART_DIR.mkdir(parents=True, exist_ok=True)
+INDIVIDUAL_DIR = CHART_DIR / "individual"
+INDIVIDUAL_DIR.mkdir(exist_ok=True)
 
 summary = pd.read_csv(DATA_DIR / "_summary.csv")
 
@@ -61,12 +63,12 @@ def generate_line_charts():
         ax2.grid(True, alpha=0.3)
 
         fig.tight_layout()
-        save_path = CHART_DIR / f"{safe}_line.png"
+        save_path = INDIVIDUAL_DIR / f"{safe}_line.png"
         fig.savefig(save_path, dpi=120, bbox_inches="tight")
         plt.close(fig)
         print(f"  [OK] {safe}_line.png")
 
-    print(f"\nAll line charts saved to {CHART_DIR}\n")
+    print(f"\nAll line charts saved to {INDIVIDUAL_DIR}\n")
 
 
 # ──────────────────────────────────────────────

@@ -8,7 +8,10 @@ warnings.filterwarnings("ignore")
 
 DATA_DIR = Path(__file__).parent / "data"
 CHART_DIR = Path(__file__).parent / "charts"
-CHART_DIR.mkdir(exist_ok=True)
+STEP6_DIR = CHART_DIR / "Part3_Correlation" / "Step6_AIChipCorrelation"
+STEP6_DIR.mkdir(parents=True, exist_ok=True)
+STEP7_DIR = CHART_DIR / "Part3_Correlation" / "Step7_Beta"
+STEP7_DIR.mkdir(parents=True, exist_ok=True)
 
 summary = pd.read_csv(DATA_DIR / "_summary.csv")
 
@@ -50,7 +53,7 @@ def step6_correlation():
                 cbar_kws={"label": "Correlation", "shrink": 0.8})
     ax.set_title("AI & Chip Stocks — Daily Return Correlation Matrix", fontsize=14)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "correlation_heatmap_ai_chip.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP6_DIR / "correlation_heatmap_ai_chip.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print("  [OK] correlation_heatmap_ai_chip.png")
 
@@ -136,7 +139,7 @@ def step6_correlation():
     ax2.set_ylim(-0.3, 1.0)
 
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "nvda_vs_amd.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP6_DIR / "nvda_vs_amd.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] nvda_vs_amd.png")
 
@@ -160,11 +163,11 @@ def step6_correlation():
     ax.grid(True, alpha=0.3)
     ax.set_aspect("equal")
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "nvda_vs_amd_scatter.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP6_DIR / "nvda_vs_amd_scatter.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] nvda_vs_amd_scatter.png")
 
-    pairs_df.to_csv(CHART_DIR / "correlation_pairs.csv", index=False)
+    pairs_df.to_csv(STEP6_DIR / "correlation_pairs.csv", index=False)
     print(f"  [OK] correlation_pairs.csv")
 
     return corr, pairs_df
@@ -257,7 +260,7 @@ def step7_beta():
               fontsize=10, loc="lower right")
 
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "beta_ranking.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP7_DIR / "beta_ranking.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"\n  [OK] beta_ranking.png")
 
@@ -281,7 +284,7 @@ def step7_beta():
     ax.legend(fontsize=11)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "beta_vs_return.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP7_DIR / "beta_vs_return.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] beta_vs_return.png")
 
@@ -299,11 +302,11 @@ def step7_beta():
                 cbar_kws={"label": "Correlation", "shrink": 0.8})
     ax.set_title("AI & Chip Stocks + S&P500 — Correlation Matrix", fontsize=14)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "correlation_heatmap_with_sp500.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP7_DIR / "correlation_heatmap_with_sp500.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] correlation_heatmap_with_sp500.png")
 
-    beta_df.to_csv(CHART_DIR / "beta_analysis.csv", index=False)
+    beta_df.to_csv(STEP7_DIR / "beta_analysis.csv", index=False)
     print(f"  [OK] beta_analysis.csv")
 
     return beta_df
