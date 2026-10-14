@@ -8,7 +8,10 @@ warnings.filterwarnings("ignore")
 
 DATA_DIR = Path(__file__).parent / "data"
 CHART_DIR = Path(__file__).parent / "charts"
-CHART_DIR.mkdir(exist_ok=True)
+STEP8_DIR = CHART_DIR / "Part4_LeadLag" / "Step8_LaggedCorrelation"
+STEP8_DIR.mkdir(parents=True, exist_ok=True)
+STEP9_DIR = CHART_DIR / "Part4_LeadLag" / "Step9_Leadership"
+STEP9_DIR.mkdir(parents=True, exist_ok=True)
 
 summary = pd.read_csv(DATA_DIR / "_summary.csv")
 AI_CHIP = summary[summary["Sector"].isin(["AI", "Chip"])]
@@ -116,7 +119,7 @@ def step8_lagged_correlation():
 
     fig.suptitle("NVDA vs AMD — Lead-Lag Correlation Structure", fontsize=14, y=1.02)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "nvda_amd_lag.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP8_DIR / "nvda_amd_lag.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"\n  [OK] nvda_amd_lag.png")
 
@@ -133,11 +136,11 @@ def step8_lagged_correlation():
     ax.set_xlabel("Follower (t+1)", fontsize=11)
     ax.set_ylabel("Leader (t)", fontsize=11)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "lag1_heatmap.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP8_DIR / "lag1_heatmap.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] lag1_heatmap.png")
 
-    lag_df.to_csv(CHART_DIR / "lagged_correlations.csv", index=False)
+    lag_df.to_csv(STEP8_DIR / "lagged_correlations.csv", index=False)
     print(f"  [OK] lagged_correlations.csv")
 
     return lag_df, best_lag
@@ -225,7 +228,7 @@ def step9_leadership(lag_df: pd.DataFrame):
     ax.legend(handles=legend_items, fontsize=10, loc="lower right")
 
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "leadership_score.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP9_DIR / "leadership_score.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"\n  [OK] leadership_score.png")
 
@@ -277,11 +280,11 @@ def step9_leadership(lag_df: pd.DataFrame):
     ax.set_title("Lead-Lag Influence Flow (top 30 links, |corr| > 0.08)", fontsize=14)
 
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "influence_flow.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP9_DIR / "influence_flow.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] influence_flow.png")
 
-    score_df.to_csv(CHART_DIR / "leadership_scores.csv", index=False)
+    score_df.to_csv(STEP9_DIR / "leadership_scores.csv", index=False)
     print(f"  [OK] leadership_scores.csv")
 
     return score_df
