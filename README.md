@@ -50,7 +50,7 @@ Data ── Part 1: EDA ── Part 2: Volatility ── Part 3: Correlation ─
 **Prerequisites:** Python 3.10+
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn scipy yfinance
 ```
 
 Run scripts in order:
@@ -67,7 +67,9 @@ python risk.py
 python portfolio.py
 ```
 
-All charts and CSV outputs are saved to the `charts/` directory.
+`download_data.py` saves the price data to a local `data/` folder, and the other scripts write their charts and CSV outputs to `charts/`, grouped by part and step (for example `charts/Part1_EDA/Step3_Returns/`). Neither folder is included in this repository; both are created when the scripts run. Run all scripts before opening `report.ipynb`, which reads these outputs.
+
+`download_data.py` retrieves the year before the day it runs, so a new download gives a different period from the May 2025 – May 2026 data described above.
 
 ---
 

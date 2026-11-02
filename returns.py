@@ -5,8 +5,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 DATA_DIR = Path(__file__).parent / "data"
-CHART_DIR = Path(__file__).parent / "charts"
-CHART_DIR.mkdir(exist_ok=True)
+CHART_DIR = Path(__file__).parent / "charts" / "Part1_EDA" / "Step3_Returns"
+CHART_DIR.mkdir(parents=True, exist_ok=True)
 
 summary = pd.read_csv(DATA_DIR / "_summary.csv")
 

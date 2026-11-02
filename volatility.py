@@ -8,7 +8,10 @@ warnings.filterwarnings("ignore")
 
 DATA_DIR = Path(__file__).parent / "data"
 CHART_DIR = Path(__file__).parent / "charts"
-CHART_DIR.mkdir(exist_ok=True)
+STEP4_DIR = CHART_DIR / "Part2_Volatility" / "Step4_AnnualizedVol"
+STEP4_DIR.mkdir(parents=True, exist_ok=True)
+STEP5_DIR = CHART_DIR / "Part2_Volatility" / "Step5_RollingVol"
+STEP5_DIR.mkdir(parents=True, exist_ok=True)
 
 summary = pd.read_csv(DATA_DIR / "_summary.csv")
 stocks_only = summary[summary["Sector"] != "Index"]
@@ -128,7 +131,7 @@ def sector_correlation_analysis():
     ax.legend(fontsize=10)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "sector_rolling_correlation.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP4_DIR / "sector_rolling_correlation.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"\n  [OK] sector_rolling_correlation.png")
 
@@ -214,11 +217,11 @@ def annualized_volatility(include_ne: bool):
     ax.legend(fontsize=11)
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "return_vs_risk_scatter.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP4_DIR / "return_vs_risk_scatter.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"\n  [OK] return_vs_risk_scatter.png")
 
-    vol_df.to_csv(CHART_DIR / "annualized_volatility.csv", index=False)
+    vol_df.to_csv(STEP4_DIR / "annualized_volatility.csv", index=False)
     print(f"  [OK] annualized_volatility.csv")
 
     return vol_df
@@ -265,7 +268,7 @@ def rolling_volatility(include_ne: bool):
     axes[-1].set_xlabel("Date", fontsize=11)
     fig.suptitle("30-Day Rolling Volatility by Sector", fontsize=14, y=1.01)
     fig.tight_layout()
-    fig.savefig(CHART_DIR / "rolling_volatility_by_sector.png", dpi=150, bbox_inches="tight")
+    fig.savefig(STEP5_DIR / "rolling_volatility_by_sector.png", dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"  [OK] rolling_volatility_by_sector.png")
 
@@ -335,7 +338,7 @@ def rolling_volatility(include_ne: bool):
         print("  Top 20 volatility spike events:")
         print(spike_df.head(20).to_string())
 
-        spike_df.to_csv(CHART_DIR / "volatility_spikes.csv", index=False)
+        spike_df.to_csv(STEP5_DIR / "volatility_spikes.csv", index=False)
         print(f"\n  [OK] volatility_spikes.csv ({len(spike_df)} events total)")
     else:
         print("  No spikes detected.")
@@ -364,7 +367,7 @@ def rolling_volatility(include_ne: bool):
         ax.legend(fontsize=9, loc="upper left", ncol=2)
         ax.grid(True, alpha=0.3)
         fig.tight_layout()
-        fig.savefig(CHART_DIR / "volatility_spike_highlight.png", dpi=150, bbox_inches="tight")
+        fig.savefig(STEP5_DIR / "volatility_spike_highlight.png", dpi=150, bbox_inches="tight")
         plt.close(fig)
         print(f"  [OK] volatility_spike_highlight.png")
 
